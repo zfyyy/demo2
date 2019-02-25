@@ -1,0 +1,314 @@
+*{padding: 0;margin: 0;}
+			@media only screen and (min-width: 992px) {
+					/*body{
+						background: url(img2/body_pic.jpg) no-repeat;
+						background-size: cover;
+					}*/
+					.container{
+						margin-top: 90px;
+						width: 1200px;
+						z-index: 2;
+						/*border: 1px solid #AEAEAE;*/
+					}
+					/*导航条1*/
+					#navbody_pic{
+						width: 1200px;
+						height: 50px;
+						border-radius:10px 10px 0px 0px;
+						/*border: 1px solid red;*/
+						background: url(../img2/nav_bg.png);
+					}
+					#navbody_pic ul li a{
+						text-decoration: none;
+						color: white;
+					}
+					#navbody_pic ul li a:hover{
+						color: black;
+					}
+					#navbody_pic ul li{
+						width: 100px;
+						line-height: 50px;
+						text-align: center;	
+						float: left;
+						font-size: 16px;
+						font-family: "微软雅黑";
+					}
+					/*导航条1结束*/
+					
+					/*导航条2*/
+					#navbody_pic2{
+						width: 1200px;
+						height: 50px;
+						border: 1px solid deepskyblue;
+						border-radius:0px 0px 10px 10px;
+						background: #F6FDFF;
+					}
+					#navbody_pic2 ul li a{
+						text-decoration: none;
+					}
+					#navbody_pic2 ul li{
+						float: left;
+						line-height: 50px;
+						font-size: 14px;
+						text-align: center;
+					}
+					#navbody_pic2 span{
+						color: #AEAEAE;
+					}
+					#navbody_pic2 .search{
+						margin-top: -2px;
+					}
+					/*导航条2结束*/
+					
+					#centen_content{
+						width: 1200px;
+						height: 2190px;
+						background: white;
+						box-shadow: 0px 10px 10px 6px #AEAEAE;
+					}
+					/*中间内容左边块*/
+					#centen_content .left{
+						width: 900px;
+						float: left;
+						/*border: 1px solid red;*/
+					}
+					#centen_content .left .title{
+						width: 898px;
+						height: 50px;
+	
+						/*border: 1px solid black;*/
+					}
+					#centen_content .left .title p{
+						width: 870px;
+						margin-left: 14px;
+						padding-top: 20px;
+						border-bottom: 1px dashed deepskyblue;
+						
+					}
+					#centen_content .left .filter{
+						width: 870px;
+						height: 40px;
+						margin-top: 10px;
+						margin-left: 14px;
+						/*border: 1px solid black;*/
+					}
+					#centen_content .left .filter ul li{
+						text-align: center;
+						line-height: 30px;
+						float: left;
+						padding-left: 12px;
+						list-style: none;
+					}
+					#centen_content .left .filter .c_all{
+						background: dodgerblue;
+						color: white;
+					}
+					#centen_content .left .filter ul li a{
+						text-decoration: underline;
+					}
+					#centen_content .left .filter ul li a:hover{
+						text-decoration: none;
+						color: red;
+					}
+					#centen_content .left .title .a_font{
+						font-size: 16px;
+						font-weight: 700;
+					}
+					#centen_content .left .title .b_red{
+						color: red;
+					}
+					#centen_content .left .All_dm{
+							width: 870px;
+							height: 42px;
+							border: 1px dashed white;	
+							border-bottom: 1px dashed deepskyblue;	
+							margin:40px auto;
+					}
+					#centen_content .left .All_dm p{
+						padding-top: 16px;
+					}
+					#centen_content .left .dongman_update{
+						width: 870px;
+						height: 1400px;
+						margin: -20px auto;
+						/*border: 1px solid black;*/	
+					}
+					#centen_content .left .dongman_update .d_hover{
+						color: #AEAEAE
+					}
+					#centen_content .left .dongman_update img:hover{
+							cursor: pointer;
+					}
+					#centen_content .left .dongman_update .thumbnail{
+						height: 212px;
+					}
+					#centen_content .left .dongman_update .pag{
+						margin-top: -10px;
+					}
+					/*中间内容左边块结束*/
+					
+					/*中间内容右边块*/
+					#centen_content .right{
+						width: 300px;
+						float: right;
+						/*border: 1px solid black;*/
+					}
+					#centen_content .right .right_week{
+						width: 290px;
+						margin: 8px auto;
+						/*border-left: 2px solid deepskyblue;
+						border-right: 2px solid deepskyblue;*/
+						border: 2px solid #E7E1DD;
+						background: -webkit-gradient(linear,left top,left bottom,from(lightblue),to(lightblue),color-stop(0.1,white),color-stop(0.85,white));
+							/*background: -webkit-gradient(linear,left top,right top,from(deepskyblue),to(deepskyblue),color-stop(0.02,white),color-stop(0.98,white));*/
+					}
+					#centen_content .right .right_week .right_week_content{
+						width: 280px;
+						height: 40px;
+						margin: auto;
+						/*border: 1px solid deepskyblue;*/
+					}
+					/*#centen_content .right .right_week .week_day a{
+							text-decoration: none;
+					}*/
+					/*#centen_content .right .right_week .week_day a:hover{
+							color: red;
+					}*/
+					#centen_content .right .right_week .week_day li{
+						float: left;
+						width: 40px;
+						height: 30px;
+						text-align: center;
+						line-height: 30px;
+						margin: auto;
+						color: white;
+						border: 1px solid deepskyblue;
+						background: deepskyblue;
+						/*background: -webkit-gradient(linear, left top,left bottom,from(deepskyblue),to(deepskyblue),color-stop(0,white));*/
+						border-radius: 6px 6px 0px 0px;
+					}
+					#centen_content .right .right_week .week_day li:hover{
+						cursor: pointer;
+						color: red;
+					}
+					#centen_content .right .dispy{
+						width: 280px;
+						margin: auto;
+						/*border: 1px solid deepskyblue;*/
+					}
+					#centen_content .right .dispy1{
+						width: 280px;
+						margin: auto;
+						/*border: 1px solid deepskyblue;*/
+					}
+					#centen_content .right .dm_tg{
+							width: 290px;
+							height: 210px;
+							margin: auto;
+						border: 2px solid #E7E1DD;
+							background: -webkit-gradient(linear,left top,left bottom,from(white),to(lightblue),color-stop(0.6,white));
+					}	
+					#centen_content .right .dm_tg .dm_tg_content{
+						width: 280px;
+						height: 160px;
+						margin: 10px auto;
+						border: 2px solid #E7E1DD;
+						background: white;
+					}
+					#centen_content .right .dm_tg .dm_tg_content .text1{
+						font-size: 16px;
+						text-align: center;
+						padding-top: 10px;
+					}
+					#centen_content .right .dm_video{
+						width: 290px;
+						height: 800px;
+						margin: 10px auto;
+						border: 2px solid #E7E1DD;
+						background: -webkit-gradient(linear,left top,left bottom,from(white),to(lightblue),color-stop(0.6,white));
+					}
+					#centen_content .right .dm_video .dm_video_content{
+						width: 280px;
+						height: 750px;
+						margin: 10px auto;
+						border: 2px solid #E7E1DD;
+						background: white;
+					}
+					#centen_content .right .dm_video .dm_video_content td:nth-of-type(1){
+						font-size: 12px;
+					}
+					#centen_content .right .carousel{
+						width: 290px;
+						height: 300px;
+						margin: auto;
+						overflow: hidden;
+						/*border: 1px solid black;*/
+					}
+					#centen_content .right .carousel img{
+						width: 290px;
+					}
+					#centen_content .right .carousel #toggle img{
+						position: absolute;
+						display: none;
+					}
+					#centen_content .right .carousel .small_pic{
+						width: 360px;
+						height: 60px;
+						top: 180px;
+						background: #E2E2E3;
+						position: relative;
+					}
+					#centen_content .right .carousel .small_pic .BBBBBB{
+						width: 76px;
+						height: 60px;
+						background: #BBBBBB;
+					}
+					#centen_content .right .carousel .small_pic .run{
+						/*border: 1px solid red;*/
+						width: 640px;
+						left: 0px;
+						position: absolute;
+					}
+					#centen_content .right .carousel .small_pic img{
+						width: 60px;
+						height: 46px;
+						margin-left: 10px;
+						margin-top: 7px;
+						float: left;
+					}
+					.prog{
+						width: 0px;
+						height: 8px;
+						background-color: dodgerblue;
+						position: absolute;
+						bottom: -1099px;
+						left: 1273px;
+					}
+					/*中间内容右边块结束*/
+					
+					/*底部内容*/
+					.botttom_content{
+						width: 1200px;
+						margin-top: -260px;
+						border: 1px solid white;
+						}
+					.botttom_content ul{
+						list-style: none;
+					}
+					.botttom_content ul li{
+						float: left;
+						font-size: 14px;
+						text-align: center;
+						padding-left: 10px;
+						/*border: 1px solid black;*/
+					}
+					.botttom_content ul li a{
+						text-decoration: underline;
+						color: black;
+					}
+					.botttom_content ul li a:hover{
+						text-decoration: none;
+						color: deepskyblue;
+					}
+					/*底部内容结束*/
+				}

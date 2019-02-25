@@ -1,0 +1,113 @@
+			*{padding: 0;margin:0;}
+			/*顶部css*/
+			#dingbu{
+				width: 100%;
+				height: 180px;
+				background: wheat;
+			}
+			
+			div .all{
+				width: 1920px;
+				height: 180px;
+				/*border: 2px solid red;*/
+				position: relative;
+				margin: auto;
+			}
+			
+			.bizhi{
+			width: 1920px;
+			height: 1800px;
+			margin: auto;
+			}
+			
+			#dingbu .black{
+				width: 1920px;
+				height: 40px;
+				/*border: 2px solid green;*/
+				background-color: black;
+				opacity: 0.7;
+				position: fixed;
+				z-index: 1;
+			}
+			
+			.rigth{
+				width: 200px;
+				height: 40px;
+				/*border: 1px solid deeppink;*/
+				position: absolute;
+				right: 0px;
+			}
+			.rigth ul{
+				list-style: none;
+				
+			}
+			.rigth ul li{
+				color: white;
+				float: left;
+				line-height: 40px;
+				margin-left:20px ;	
+				font-size: 20px;
+				font-family: "宋体";
+				
+			}
+			.rigth ul li:hover{
+				text-decoration: underline;
+				color: red;
+			}
+			.tongzhi{
+				width: 500px;
+				height: 40px;
+				/*border: 2px solid deeppink;*/
+				position: relative;
+				overflow: hidden;
+			}
+			.text{
+				color: white;
+				padding-left:10px ;
+				line-height: 40px;
+				font-size: 18px;
+				font-family: "宋体";
+				
+			}
+			.laba{
+				width: 18px;
+				height: 18px;
+				position: absolute;
+				top: 10px;
+				left:50px;
+			}
+			.zixun{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				
+			}
+			.zixun li{
+				list-style: none;
+				text-align: center;
+				width: 500px;
+				height: 40px;
+				color: white;
+				line-height: 40px;
+				/*border: 2px solid blue;*/
+			}
+			.dongtai{
+				width: 900px;
+				height: 40px;
+				position: absolute;
+				top: 0px;
+				left: 680px;
+				line-height: 40px;
+				font-size: 20px;
+				font-family: "宋体";
+				color: white;
+				margin: auto;
+				/*border: 2px solid blue;*/
+			}
+			.dongtai span:hover{
+				background-color: ghostwhite;
+			}
+			.a:hover{
+				text-decoration: underline;
+				color: red;
+			}

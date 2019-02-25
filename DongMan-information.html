@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/DongMan-MainDengluZhuce.css"/>
+		<style type="text/css">
+			*{padding: 0px;margin: 0px;}
+			.top_content{
+				width: 1200px;
+				margin-top: -10px;
+				/*border: 1px solid black;*/
+			}
+			/*轮播图*/
+			.top_content .photo_frame{
+				width: 952px;
+				height: 440px;
+				float: left;
+				position: relative;
+				border: 1px solid black;
+				overflow: hidden;
+				/*visibility: hidden;*/
+			}
+			.top_content .lunbo{
+				width: 5714px;
+				height: 440px;
+				position: absolute;
+				left: 0px;
+				right: 0px;
+				/*border: 1px solid red;*/
+			}
+			.top_content .lunbo img{
+				float: left;
+			}
+			.top_content .photo_frame ul{
+				position: absolute;
+				list-style: none;
+				right: 0px;
+				bottom:-10px;
+			}
+			.top_content .photo_frame ul li:hover{
+				cursor: pointer;
+			}
+			.top_content .photo_frame ul li{
+				float: left;
+				width: 100px;
+				height: 30px;
+				background: black;
+				opacity: 0.4;
+				color: white;
+				line-height: 30px;
+				text-align: center;
+				margin-left: 4px;
+			}
+			/*轮播图结束*/
+			
+			/*热门标题*/
+			.top_content .header_title{
+				width: 240px;
+				height: 440px;
+				/*border: 1px solid red;*/
+				float: right;
+			}
+			.top_content .header_title .hot{
+				width: 240px;
+				height: 40px;
+				border-bottom:2px solid #AEAEAE;
+				/*border:1px solid red;*/
+				
+			}
+			.top_content .header_title .hot .fire_pic{
+				width: 40px;
+				height: 40px;
+				float: left;
+				border-bottom:2px solid darkred;
+				background: url(img3/new-ico.png) 5px -65px;
+				/*border:1px solid red;*/
+			}
+			.top_content .header_title .hot h2{
+				width: 100px;
+				border-bottom:2px solid darkred ;
+				height: 40px;
+				/*border:1px solid red;*/
+				margin-left: 36px;
+				margin-top: 0px;
+				font-size: 24px;
+				line-height: 40px;
+			}
+			.top_content .header_title .hot .cat_pic{
+				width: 100px;
+				height:40px;
+				float: right;
+				/*border:1px solid red;*/
+				background: url(img3/new-ico.png) 110px -128px ;
+			}
+			/*热门标题结束*/
+			
+			/*热门里面的内容*/
+			.top_content .hot_content{
+				width: 240px;
+				height: 400px;
+				/*border: 1px solid black;*/
+			}
+			.top_content .hot_content ul{
+				padding-left: 16px;
+			}
+			.top_content .hot_content ul li:nth-child(1){
+				width: 240px;
+				height: 80px;
+				/*border: 1px solid black;*/
+				list-style: none;
+			}
+			.top_content .hot_content ul li{
+				width: 240px;
+				height: 27px;
+				line-height: 27px;
+				font-size: 14px;
+				list-style-type: circle;
+				/*border: 1px solid black;*/
+			}
+			.top_content .hot_content ul li span{
+				padding-left: 40px;
+				color: #AEAEAE;
+			}
+			.top_content .hot_content ul li a:hover{
+				text-decoration: none;
+			}
+			/*热门里面的内容结束*/
+			
+			/*新闻*/
+			#news_content{
+				width:1200px;
+				height: 1900px;
+				/*border: 1px solid black;*/
+				margin-top: 460px;
+			}
+			#news_content .news_title{
+				width:900px;
+				/*border: 1px solid black;*/
+				border-bottom: 2px solid #AEAEAE;
+				height: 45px;
+			}
+			#news_content .news_title .video_pic{
+				width:50px;
+				height: 45px;
+				background: url(img3/new-ico.png) 10px -25px;
+				/*border: 1px solid red;*/
+				border-bottom: 2px solid red;
+				float: left;
+			}
+				#news_content .news_title .text{
+				width:180px;
+				height: 45px;
+				border-bottom: 2px solid red;
+				/*border: 1px solid red;*/
+				float: left;
+				}
+				#news_content .human{
+					width:50px;
+					height: 50px;
+					/*border: 1px solid black;*/
+					margin-left: 240px;
+					background: url(img3/new-ico.png) -100px -6px;
+				}
+				/*第一个资讯*/
+				#news_content .one_content{
+					width:900px;
+					height: 200px;
+					/*border: 1px solid black;*/	
+					border-bottom: 1px solid #AEAEAE;
+					margin-top: 30px;
+					float: left;
+				}
+				#news_content .kenan_img{
+					width: 280px;
+					height: 160px;
+					overflow: hidden;
+					float: left;
+					border: 1px solid black;
+				}
+				#news_content .kenan_img img{
+					width: 280px;
+					height: 160px;
+				}
+				#news_content .text1{
+					width: 560px;
+					height: 30px;
+					float: left;
+					/*border: 1px solid red;*/
+				}
+				#news_content .text2{
+					width: 600px;
+					height: 30px;
+					float:left;
+					margin-top: 10px;
+					/*border: 1px solid red;*/
+				}
+				#news_content .text2 span{
+					font-size: 16px;
+					color: #AEAEAE;
+					line-height: 30px;
+				}
+				#news_content .text2 span:nth-child(1){
+					font-size: 16px;
+					color: #AEAEAE;
+					margin-left:8px;
+					line-height: 30px;
+				}
+				#news_content .text2 span:nth-child(2){
+					font-size: 16px;
+					color: #AEAEAE;
+					margin-left:25px;
+					line-height: 30px;
+				}
+				#news_content .text2 span:nth-child(3){
+					font-size: 16px;
+					color: #AEAEAE;
+					margin-left:25px;
+					line-height: 30px;
+				}
+				#news_content .text3{
+					width: 600px;
+					height: 50px;
+					float:left;
+					margin-top: 10px;
+					/*border: 1px solid red;*/
+				}
+				#news_content .biaoqian{
+					width: 600px;
+					height: 20px;
+					float:left;
+					margin-top: 16px;
+					/*border: 1px solid red;*/
+				}
+				#news_content .game{
+					width: 50px;
+					height: 30px;
+					float: left;
+					margin-left: 6px;
+					/*border: 1px solid black;*/
+					background: url(img3/new-ico.png) no-repeat -48px -68px;
+				}
+				#news_content .game2{
+					width: 50px;
+					height: 30px;
+					float: left;
+					margin-left: 6px;
+					/*border: 1px solid black;*/
+					background: url(img3/new-ico.png) no-repeat -48px -32px;
+				}
+				#news_content .game3{
+					width: 50px;
+					height: 30px;
+					float: left;
+					margin-left: 6px;
+					/*border: 1px solid black;*/
+					background: url(img3/new-ico.png) no-repeat -48px 0px;
+				}
+				#news_content .game4{
+					width: 50px;
+					height: 30px;
+					float: left;
+					margin-left: 6px;
+					/*border: 1px solid black;*/
+					background: url(img3/new-ico.png) no-repeat -48px -102px;
+				}
+				#news_content .game5{
+					width: 50px;
+					height: 30px;
+					float: left;
+					margin-left: 6px;
+					/*border: 1px solid black;*/
+					background: url(img3/new-ico.png) no-repeat -48px 0px;
+				}
+				#news_content .game6{
+					width: 50px;
+					height: 30px;
+					float: left;
+					margin-left: 6px;
+					/*border: 1px solid black;*/
+					background: url(img3/new-ico.png) no-repeat -48px -68px;
+				}
+				#news_content .game7{
+					width: 50px;
+					height: 30px;
+					float: left;
+					margin-left: 6px;
+					/*border: 1px solid black;*/
+					background: url(img3/new-ico.png) no-repeat -48px -102px;
+				}
+				 .daohang ul{
+					list-style: none;
+					margin-left: 100px;
+				}
+				 .daohang ul li{
+					float: left;
+					width: 50px;
+					height: 30px;
+					line-height: 30px;
+					text-align: center;
+					margin-left: 10px;
+					border: 1px solid black;
+					color: black;
+				}
+				 .daohang ul li:hover{
+					cursor: pointer;
+					color: white;
+					background: deepskyblue;
+				}
+				/*第一个资讯结束*/
+				
+			/*新闻结束*/
+			
+			.jieshu{
+				width: 2000px;
+				height: 200px;
+				position: relative;
+				margin-top: 60px;
+				margin-left: -480px;
+				border: 1px solid black;
+				background: url(img3/foot.png) ;
+				background-size: cover
+			}
+			 .jieshu ul{
+				list-style: none;
+				color: black;
+			}
+			 .jieshu ul li{
+				float: left;
+				width: 200px;
+				text-align: center;
+				font-size: 18px;
+				font-weight: 700px;
+				font-family: "微软雅黑";
+				/*border: 1px solid white;*/
+			}
+			 .jieshu .we{
+				/*border: 1px solid white;*/
+				width: 100px;
+				height: 100px;
+				margin-top:20px;
+				margin-left:1200px;
+				float: left;
+			}
+			
+			 .jieshu .we a{
+				width: 80px;
+				display: block;
+				color: white;
+				text-decoration: none;
+				margin-top:10px;
+				margin-left:48px
+				border: 1px solid white;
+			}
+			.jieshu .weo{
+				/*border: 1px solid white;*/
+				width: 100px;
+				height: 100px;
+				margin-top:20px;
+				margin-left:96px;
+				float: left;
+			}
+			.jieshu .weo a{
+				width: 80px;
+				display: block;
+				color: white;
+				text-decoration: none;
+				margin-top:10px;
+				margin-left:48px
+				border: 1px solid white;
+			}
+			.jieshu .wet{
+				/*border: 1px solid white;*/
+				width: 100px;
+				height: 100px;
+				margin-top:20px;
+				margin-left:102px;
+				float: left;
+			}
+			.jieshu .wet a{
+				width: 80px;
+				display: block;
+				color: white;
+				text-decoration: none;
+				margin-top:10px;
+				margin-left:48px
+				border: 1px solid white;
+			}
+			.jieshu a:hover{
+				cursor: pointer;
+				color: deepskyblue;
+			}
+		</style>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript">
+			window.onload=function(){
+				//轮播图
+				var a=0;
+				function run(){
+					a++;
+					//判断
+					if(a==6){
+						$(".lunbo").css({"left":"0px"})
+						a=1;
+					}
+//					计算left的值
+					var left=a*-952
+					//让图片运动
+					$(".top_content .photo_frame .lunbo").stop().animate({"left":left+"px"},400)
+//					让a号li透明度变化,其他li透明度也变化
+					$(".photo_frame ul li").eq(a).css({"opacity":"0.7"}).siblings("li").css({"opacity":"0.4"})
+					//判断li的透明度跟着图片的滑动变化
+					if(a==5){
+					$(".photo_frame ul li").eq(0).css({"opacity":"0.7"}).siblings("li").css({"opacity":"0.4"})
+					}
+				}
+			time =setInterval(run,3000)
+				
+				$(".photo_frame ul li").click(function(){
+					clearInterval(time);
+//					获得li序号,点击图片运动
+					a=$(this).index()
+					//计算被点击的left的值
+					var left=a*-952
+					//让lunbo运动
+					$(".photo_frame .lunbo").stop().animate({"left":left+"px"},400)
+					//让被点击的li元素透明度变化
+					$(this).css({"opacity":"0.7"}).siblings("li").css({"opacity":"0.4"})
+					time=setInterval(run,2000)
+				})
+				//轮播图结束
+				
+				//登录注册close效果
+			$(".mydenglu").click(function(){
+				$("#beijing").slideToggle(1000)
+							$(".bottomCont").css({"display":"block"})
+							$(".bottomCont2").css({"display":"none"})
+						$("#beijing .leftDL").mouseenter(function(){
+							$(".leftDL").css({"background":"white"})
+							$(".bottomCont").css({"display":"block"})
+							$(".rightZC").css({"background":"#DFE6ED"})
+							$(".bottomCont2").css({"display":"none"})
+				})
+						$("#beijing .rightZC").mouseenter(function(){
+							$(".rightZC").css({"background":"white"})
+							$(".bottomCont2").css({"display":"block"})
+							$(".leftDL").css({"background":"#DFE6ED"})
+							$(".bottomCont").css({"display":"none"})
+							
+					})
+					$("#beijing .leftDL").css({"background":"white"})
+					$("#beijing .rightZC").css({"background":"#DFE6ED"})
+			})
+			
+			$(".myzhuce").click(function(){
+				$("#beijing").slideToggle(1000)
+							$(".bottomCont2").css({"display":"block"})
+							$(".bottomCont").css({"display":"none"})
+					$("#beijing .rightZC").mouseenter(function(){
+						$(".rightZC").css({"background":"white"})
+						$(".bottomCont2").css({"display":"block"})
+						$(".leftDL").css({"background":"#DFE6ED"})
+						$(".bottomCont").css({"display":"none"})
+							
+					})
+					$("#beijing").css({"display":"block"})
+						$("#beijing .leftDL").mouseenter(function(){
+							$(".leftDL").css({"background":"white"})
+							$(".bottomCont").css({"display":"block"})
+							$(".rightZC").css({"background":"#DFE6ED"})
+							$(".bottomCont2").css({"display":"none"})
+					})
+					$("#beijing .rightZC").css({"background":"white"})
+					$("#beijing .leftDL").css({"background":"#DFE6ED"})
+				})
+				
+			$(".myclose").click(function(){
+					$("#beijing").fadeToggle(500)
+			})
+			}
+		</script>
+	</head>
+	<body>
+		
+		<!--导航条--> 
+			<nav class="navbar navbar-default navbar-static-top">
+					<div class="navbar-header">
+						<a href="#" class="navbar-brand">导航</a>
+					</div>
+					<ul class="nav navbar-nav">
+						<li ><a href="DongMan-Main_file.html" target="_blank">动漫首页</a></li>
+						<li><a href="#" target="_blank">动漫新番</a></li>
+						<li><a href="DongMan-FenLei.html" target="_blank">动漫分类</a></li>
+						<li><a href="#" style="background: navajowhite;">动漫情报</a></li>
+						<li><a href="#" target="_blank">动漫周边</a></li>
+						<li><a href="#">动漫综合群：<span style="color: red;">779418000</span></a></li>
+					</ul>
+					<ul class="nav navbar-nav pull-right  style="margin-right: 20px;"">
+						<li><a href="#" class="mydenglu"><span class="glyphicon glyphicon-user "></span>&nbsp登录</a></li>
+						<li><a href="#" class="myzhuce"><span class="glyphicon glyphicon-tasks "></span>&nbsp注册</a></li>
+					</ul>
+			</nav>
+		<!--导航条结束-->
+				
+		<div class="container">
+			<div class="top_content">
+				<!--轮播图-->
+				<div class="photo_frame">
+					<div class="lunbo">
+						<img src="img3/lunbo-1.jpg"/>
+						<img src="img3/lunbo-2.jpg"/>
+						<img src="img3/lunbo-3.jpg"/>
+						<img src="img3/lunbo-4.jpg"/>
+						<img src="img3/lunbo-5.jpg"/>
+						<img src="img3/lunbo-1.jpg"/>
+					</div>
+					<ul>
+						<li style="opacity: 0.7;">凉爽冰菓</li>
+						<li>热血高校</li>
+						<li>刀剑神域</li>
+						<li>罪恶王冠</li>
+						<li>四月谎言</li>
+					</ul>
+				</div>
+				<!--轮播图结束-->
+				
+				<!--热门里面的内容-->
+			<div class="header_title">
+				
+				<!--热点标题-->
+				<div class="hot">
+						<div class="fire_pic"><h2>近期热点</h2></div>
+						<div class="cat_pic"></div>
+				</div>
+				<!--热点标题结束-->
+				
+				<!--热门内容-->
+				<div class="hot_content">
+					<ul>
+						<li>
+							<span>
+								<a href="" style="white-space:nowrap;white-space:nowrap;text-decoration: none;">
+								<img src="img3/fatestay_night.jpg" title="命运守护夜，谁是你的主人？" style="width: 100px;margin-left: -42px;margin-top: 8px;"/>
+										命运守护夜来临！！
+								</a>
+							</span>
+						</li>
+						<li><p title="任天堂要把手游发展成和主机同样大的规模！4月第5周新闻汇总"><a href="">任天堂要把手游发展成...</a><span>05-02</span></p></li>
+						<li><p title="《摇曳露营△》被指不过是大叔的妄想！4月第4周新闻汇总"><a href="">摇曳露营被指不过是大...</a><span>05-03</span></p></li>
+						<li><p title="新漫周刊第46期 一周新漫推荐(20180420期)"><a href="">新漫周刊第46期一周新...</a><span>05-02</span></p></li>
+						<li><p title="女性开车玩《Pokemon GO》撞死人！4月第3周新闻汇总"><a href="">女性开车玩PokemonG...</a><span>05-02</span></p></li>
+						<li><p title="动漫之家招兵买马第六期！赶紧来上车！"><a href="">动漫之家招兵买马第六...</a><span>05-02</span></p></li>
+						<li><p title="任天堂要把手游发展成和主机同样大的规模！4月第5周新闻汇总"><a href="">任天堂要把手游发展成...</a><span>05-02</span></p></li>
+						<li><p title="任天堂要把手游发展成和主机同样大的规模！4月第5周新闻汇总"><a href="">任天堂要把手游发展成...</a><span>05-02</span></p></li>
+						<li><p title="任天堂要把手游发展成和主机同样大的规模！4月第5周新闻汇总"><a href="">任天堂要把手游发展成...</a><span>05-02</span></p></li>
+						<li><p title="任天堂要把手游发展成和主机同样大的规模！4月第5周新闻汇总"><a href="">任天堂要把手游发展成...</a><span>05-02</span></p></li>
+						<li><p title="《摇曳露营△》被指不过是大叔的妄想！4月第4周新闻汇总"><a href="">摇曳露营被指不过是大...</a><span>05-03</span></p></li>
+						<li><p title="新漫周刊第46期 一周新漫推荐(20180420期)"><a href="">新漫周刊第46期一周新...</a><span>05-02</span></p></li>
+						<li><p title="女性开车玩《Pokemon GO》撞死人！4月第3周新闻汇总"><a href="">女性开车玩PokemonG...</a><span>05-02</span></p></li>
+					</ul>
+				</div>
+				<!--热门内容-->
+			</div>
+				<!--热门里面的内容结束-->
+			
+		</div>
+		<!--新闻-->
+			<div id="news_content">
+				<!--标题-->
+				<div class="news_title">
+					<div class="video_pic"></div>
+					<div class="text">
+						<h2 style="margin-top: 6px;">宅新闻<span style="font-size: 18px;">-又全又深</span></h2>
+					</div>
+				</div>
+				<!--标题结束-->
+				
+				<!--第一个内容-->
+				<div class="one_content">
+					<div class="kenan_img">
+						<img src="img3/row_1kenan.jpg"/>
+					</div>
+					<div class="game">
+							<span style="line-height: 30px;padding-left: 8px;color: white;">游戏</span>
+					</div>
+					<div class="text1">
+						<h3 style="margin-top: 2px;">银魂2真选组视觉图公布 近藤勋化身粉刷匠</h3>
+					</div>
+					<div class="text2">
+						<span>2018-05-27 15:45</span>
+						<span>来源：动漫之家</span>
+						<span>发布：纱布小编</span>
+					</div>
+					<div class="text3">
+						<p style="margin-left: 8px;">根据空知英秋原作漫画改编，福田雄一执导的真人电影《银魂2》（暂定名）将于8月17日在日本国内上映，官方公布了新视觉图。中村勘九郎饰演的近藤勋、柳乐优弥饰演的土方十四郎、吉泽亮饰演的冲田总悟这三名真选组角色持刀登场，官方称这张图与剧情相关。</p>
+					</div>
+					<div class="biaoqian">
+						<p style="float: left;color: #AEAEAE;margin-left: 8px;">标签：</p>
+						<div style="background: #AEAEAE;height:16px;width: 60px;float: left;color: white;text-align: center;line-height: 16px;">
+							爱杀宝贝
+						</div>
+						<div style="float: right;position: relative;">
+							<p style="color: #AEAEAE"><span style="float: right;" >分享</span><img src="img3/share-ico.png" style="float: right;top: -2px;left: -18px; position: absolute;"/></p>
+						</div>
+					</div>
+				</div>
+				<!--第一个内容结束-->
+				
+				<!--第二个内容-->
+				<div class="one_content">
+					<div class="kenan_img">
+						<img src="img3/row_5b0d1b204447d.jpg"/>
+					</div>
+					<div class="game2">
+							<span style="line-height: 30px;padding-left: 8px;color: white;">漫画</span>
+					</div>
+					<div class="text1">
+						<h3 style="margin-top: 2px;">独一无二！网友评选认为是奇才的漫画家</h3>
+					</div>
+					<div class="text2">
+						<span>2018-05-27 15:45</span>
+						<span>来源：动漫之家</span>
+						<span>发布：梓夏</span>
+					</div>
+					<div class="text3">
+						<p style="margin-left: 8px;">在众多知名作家中，有不少被成为“天才”“奇才”等的有着过人才能的人。近日日本网站goo排行就公开了网友们认为的能被称为是“奇才”的漫画家排行榜。</p>
+					</div>
+					<div class="biaoqian">
+						<p style="float: left;color: #AEAEAE;margin-left: 8px;">标签：</p>
+						<div style="background: #AEAEAE;height:16px;width: 60px;float: left;color: white;text-align: center;line-height: 16px;">
+							排行榜
+						</div>
+						<div style="float: right;position: relative;">
+							<p style="color: #AEAEAE"><span style="float: right;" >分享</span><img src="img3/share-ico.png" style="float: right;top: -2px;left: -18px; position: absolute;"/></p>
+						</div>
+					</div>
+				</div>
+				<!--第二个内容结束-->
+				
+				<!--第三个内容-->
+				<div class="one_content">
+					<div class="kenan_img">
+						<img src="img3/row_5b0cf62519253.jpg"/>
+					</div>
+					<div class="game3">
+							<span style="line-height: 30px;padding-left: 8px;color: white;">美图</span>
+					</div>
+					<div class="text1">
+						<h3 style="margin-top: 2px;">JK们的日常！《FGO》玉藻前、阿斯托尔福...</h3>
+					</div>
+					<div class="text2">
+						<span>2018-05-27 15:45</span>
+						<span>来源：动漫之家</span>
+						<span>发布：卷_毛_</span>
+					</div>
+					<div class="text3">
+						<p style="margin-left: 8px;">玉藻前和阿斯托尔福是《Fate》系列中登场的式神，日本三大妖怪之一和月球知名女装大佬。这套COS作品中，两位COSER展示出了身着JK服的小玉和阿福，毛绒绒的耳朵尾巴与短裙绝对领域都十分戳萌点，粉发二人组的摆拍非常日常可爱。那么一起来欣赏吧！</p>
+					</div>
+					<div class="biaoqian">
+						<p style="float: left;color: #AEAEAE;margin-left: 8px;">标签：</p>
+						<div style="background: #AEAEAE;height:16px;width: 60px;float: left;color: white;text-align: center;line-height: 16px;">
+							CP
+						</div>
+						<div style="float: right;position: relative;">
+							<p style="color: #AEAEAE"><span style="float: right;" >分享</span><img src="img3/share-ico.png" style="float: right;top: -2px;left: -18px; position: absolute;"/></p>
+						</div>
+					</div>
+				</div>
+				<!--第三个内容结束-->
+				
+				<!--第四个内容-->
+				<div class="one_content">
+					<div class="kenan_img">
+						<img src="img3/row_5b0d0f0c8a00a.jpg"/>
+					</div>
+					<div class="game4">
+							<span style="line-height: 30px;padding-left: 8px;color: white;">杂类</span>
+					</div>
+					<div class="text1">
+						<h3 style="margin-top: 2px;">看看冈妈经历了什么！冈田麿里自传真人电视...</h3>
+					</div>
+					<div class="text2">
+						<span>2018-05-27 15:45</span>
+						<span>来源：动漫之家</span>
+						<span>发布：梓夏</span>
+					</div>
+					<div class="text3">
+						<p style="margin-left: 8px;">动画剧本家冈田麿里的自传《不能去学校的我到写出<未闻花名><心在呐喊>》宣布了真人电视剧化的消息，本作将于当地时间9月1日22时开始播出。</p>
+					</div>
+					<div class="biaoqian">
+						<p style="float: left;color: #AEAEAE;margin-left: 8px;">标签：</p>
+						<div style="background: #AEAEAE;height:16px;width: 60px;float: left;color: white;text-align: center;line-height: 16px;">
+							真人
+						</div>
+						<div style="float: right;position: relative;">
+							<p style="color: #AEAEAE"><span style="float: right;" >分享</span><img src="img3/share-ico.png" style="float: right;top: -2px;left: -18px; position: absolute;"/></p>
+						</div>
+					</div>
+				</div>
+				<!--第四个内容结束-->
+				
+				<!--第五个内容-->
+				<div class="one_content">
+					<div class="kenan_img">
+						<img src="img3/row_5b0d1872a9182.jpg"/>
+					</div>
+					<div class="game5">
+							<span style="line-height: 30px;padding-left: 8px;color: white;">美图</span>
+					</div>
+					<div class="text1">
+						<h3 style="margin-top: 2px;">P站美图推荐——花冠特辑</h3>
+					</div>
+					<div class="text2">
+						<span>2018-05-27 15:45</span>
+						<span>来源：动漫之家</span>
+						<span>发布：卷_毛_</span>
+					</div>
+					<div class="text3">
+						<p style="margin-left: 8px;">花冠，顾名思义，是用花朵编制而成的一种头饰，自带温柔感和治愈感，与美少女们结合在一起更是效果翻倍。今天就收集了P站画师们笔下以花冠为主题的美图，喜欢的小伙伴们请收好w</p>
+					</div>
+					<div class="biaoqian">
+						<p style="float: left;color: #AEAEAE;margin-left: 8px;">标签：</p>
+						<div style="background: #AEAEAE;height:16px;width: 60px;float: left;color: white;text-align: center;line-height: 16px;">
+							美图
+						</div>
+						<div style="float: right;position: relative;">
+							<p style="color: #AEAEAE"><span style="float: right;" >分享</span><img src="img3/share-ico.png" style="float: right;top: -2px;left: -18px; position: absolute;"/></p>
+						</div>
+					</div>
+				</div>
+				<!--第五个内容结束-->
+				
+				<!--第六个内容-->
+				<div class="one_content">
+					<div class="kenan_img">
+						<img src="img3/row_5b0d27086212c.jpg"/>
+					</div>
+					<div class="game6">
+							<span style="line-height: 30px;padding-left: 8px;color: white;">动画</span>
+					</div>
+					<div class="text1">
+						<h3 style="margin-top: 2px;">两套声优！《后街女孩》主要角色声优阵容公布</h3>
+					</div>
+					<div class="text2">
+						<span>2018-05-27 15:45</span>
+						<span>来源：动漫之家</span>
+						<span>发布：卷_毛_</span>
+					</div>
+					<div class="text3">
+						<p style="margin-left: 8px;">去年年末，Jasmine Gyuh原作漫画《后街女孩》宣布了将要TV动画化的消息，最近官方终于公开了主要角色声优阵容，黑道混混与少女偶像，两套声优各司其职，来感受一下吧。</p>
+					</div>
+					<div class="biaoqian">
+						<p style="float: left;color: #AEAEAE;margin-left: 8px;">标签：</p>
+						<div style="background: #AEAEAE;height:16px;width: 60px;float: left;color: white;text-align: center;line-height: 16px;">
+							后街女孩
+						</div>
+						<div style="float: right;position: relative;">
+							<p style="color: #AEAEAE"><span style="float: right;" >分享</span><img src="img3/share-ico.png" style="float: right;top: -2px;left: -18px; position: absolute;"/></p>
+						</div>
+					</div>
+				</div>
+				<!--第六个内容结束-->
+				
+				<!--第七个内容-->
+				<div class="one_content">
+					<div class="kenan_img">
+						<img src="img3/row_5b0d05e663418.jpg"/>
+					</div>
+					<div class="game7">
+							<span style="line-height: 30px;padding-left: 8px;color: white;">游戏</span>
+					</div>
+					<div class="text1">
+						<h3 style="margin-top: 2px;">2个月就凉凉！机器人角色拟人化游戏《机动...</h3>
+					</div>
+					<div class="text2">
+						<span>2018-05-27 15:45</span>
+						<span>来源：动漫之家</span>
+						<span>发布：卷_毛_</span>
+					</div>
+					<div class="text3">
+						<p style="margin-left: 8px;">在4月18日，中国的MfunGames上线了一段名为《机动少女 -GundamGirlz》的游戏。不过根据该游戏的官方推特消息，游戏因不可抗力，于6月8日12时正式停服。另外目前该游戏已经从App Store、Google Play等平台删除。</p>
+					</div>
+					<div class="biaoqian">
+						<p style="float: left;color: #AEAEAE;margin-left: 8px;">标签：</p>
+						<div style="background: #AEAEAE;height:16px;width: 60px;float: left;color: white;text-align: center;line-height: 16px;">
+							机动少女
+						</div>
+						<div style="float: right;position: relative;">
+							<p style="color: #AEAEAE"><span style="float: right;" >分享</span><img src="img3/share-ico.png" style="float: right;top: -2px;left: -18px; position: absolute;"/></p>
+						</div>
+					</div>
+				</div>
+				<!--第七个内容结束-->
+				
+				<!--第八个内容-->
+				<div class="one_content">
+					<div class="kenan_img">
+						<img src="img3/row_5b0cf26cacaf2.jpg"/>
+					</div>
+					<div class="game">
+							<span style="line-height: 30px;padding-left: 8px;color: white;">杂类</span>
+					</div>
+					<div class="text1">
+						<h3 style="margin-top: 2px;">LL水团井盖遭破坏！网友公开“炫耀”破坏过程</h3>
+					</div>
+					<div class="text2">
+						<span>2018-05-27 15:45</span>
+						<span>来源：动漫之家</span>
+						<span>发布：梓夏</span>
+					</div>
+					<div class="text3">
+						<p style="margin-left: 8px;">在之前曾为大家介绍过，日本的沼津市作为动画《LoveLive!Sunshine!!》的圣地，安装了以本作主人公们的形象制作的井盖。不过这还没隔几天，就有人开始了破坏行动。从公开的视频截图可以看出，有人使用多种方法试图对井盖进行破坏。</p>
+					</div>
+					<div class="biaoqian">
+						<p style="float: left;color: #AEAEAE;margin-left: 8px;">标签：</p>
+						<div style="background: #AEAEAE;height:16px;width: 60px;float: left;color: white;text-align: center;line-height: 16px;">
+							LL
+						</div>
+						<div style="float: right;position: relative;">
+							<p style="color: #AEAEAE"><span style="float: right;" >分享</span><img src="img3/share-ico.png" style="float: right;top: -2px;left: -18px; position: absolute;"/></p>
+						</div>
+					</div>
+				</div>
+				<!--第八个内容结束-->
+				
+				<!--右边图片-->
+				<img src="img3/1527595176(1).jpg" style="float: right;width: 290px;position: absolute;top: 562px;"/>
+				<!--右边图片结束-->
+			</div>
+		<!--新闻结束-->
+		
+		<!--分页导航-->
+		<div class="daohang">
+			<ul>
+					<li>首页</li>
+					<li>上一页</li>
+					<li  style="background: deepskyblue;color: white;">1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+					<li>...</li>
+					<li>985</li>
+					<li>下一页</li>
+				</ul>
+		</div>
+		<!--分页导航结束-->
+			
+		<!--结束部分-->
+		<div class="jieshu">
+				<img src="img3/QR_code.jpg" style="position: absolute;left: 800px;top: 30px;"/>
+			
+			<div class="we">
+				<a href="" class="g">关于我们</a>
+				<a href="" class="g">产品介绍</a>
+				<a href="" class="g">合作伙伴</a>
+			</div>
+			<div class="weo">
+				<a href="" class="g">常见问题</a>
+				<a href="" class="g">购买套餐</a>
+				<a href="" class="g">联系我们</a>
+			</div>
+			<div class="wet">
+				<a href="http://www.baidu.com" class="g">授权协议</a>
+				<a href="" class="g">使用条款</a>
+				<a href="" class="g">隐私政策</a>
+				<a href="" class="g">会员协议</a>
+			</div>
+		</div>
+		
+		<!--登录框架-->
+		<div id="beijing" style="display: none;">
+			<div class="dlkuang">
+				<img src="img/close_btn.png" class="myclose"  style="position: absolute;right:-10px;top:-12px;"/>
+				<div class="leftDL">
+					<a href="" class="a" >登录</a>
+				</div>
+				<div class="rightZC" style="background: #DFE6ED;">
+					<a href="" class="a" >注册</a>
+				</div>
+				<!--登录内容-->
+				<div class="bottomCont">
+					<div class="leftCont">
+						<input type="text" class="inputt" placeholder="用户名/手机/邮箱"/>
+						<input type="password" class="inputt" placeholder="密码"/>
+						<input type="text" class="inputt" placeholder="验证码" style="width:157px;"/>
+						<div class="yanzhengma">
+							<img src="img/getCode.png"/>
+						</div>
+						<div class="fuxuan">
+							<input type="checkbox" value="" />下次自动登录
+							<span class="mima"><a href="">忘记密码？</a></span>
+						</div>
+						<div class="dengluBlue">
+							<span>登录</span>
+						</div>						
+					</div>
+					<div class="rigthCont">
+						<p>使用其他账户登录</p>
+						<div class="weibo"></div>
+						<div class="qq"></div>
+						<div class="weixi"></div>
+					</div>
+				</div>
+				<!--登录内容结束-->
+				
+				<!--注册内容-->
+				<div class="bottomCont2"  style="display: none;">
+					<div class="leftCont2">
+						<input type="text" class="inpuTt" placeholder="请填写用户名"/>
+						<input type="tel" class="inpuTt" placeholder="请输入手机号"/>
+						<input type="text" class="inpuTtYZ" placeholder="验证码"/>
+						<input type="button" class="inpuTtYZ" value="获取验证码" style="background-color: #3591D5;color: white;"/>
+						<input type="password" class="inpuTt" placeholder="密码"/>
+						<input type="password" class="inpuTt" placeholder="确认密码"/>
+						<div class="" style="margin: 10px;">
+						<input type="checkbox" />
+							<span>我已阅读已经同意
+							<a href="" style="color: deepskyblue;">服务使用协议</a>
+							</span>
+						</div>
+						<div class="zhuceBlue">
+							<span>立即注册</span>
+						</div>	
+					</div>
+					<div class="rigthCont2">
+						<p>使用其他账户登录</p>
+						<div class="weibo2"></div>
+						<div class="qq2"></div>
+						<div class="weixi2"></div>
+					</div>
+				</div>
+				<!--注册内容结束-->
+			</div>
+		<!--登录框架结束-->
+	</body>
+</html>
+

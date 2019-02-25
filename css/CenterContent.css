@@ -1,0 +1,238 @@
+		body{
+			background-color: #E8EDED;
+		}
+		#center{
+					border: 2px solid red;
+					width: 1920px;
+					height: 1020px;
+					margin: auto;
+					position: relative;
+					
+				}
+		#center .dmlogo{
+					width: 270px;
+					height: 72px;
+					/*border: 1px solid green;*/
+					position: absolute;
+					left: 380px;
+					top: 12px;
+				}
+		#center	.Soso{
+				width: 900px;
+				height: 72px;
+				/*border: 2px solid cadetblue;*/
+				position: absolute;
+				left: 660px;
+				top: 20px;
+				
+				
+			}
+		#center	.Soso .Sousuo{
+				width: 760px;
+				height: 62px;
+				/*border: 1px solid black;*/
+				background-color: #fcb70a;
+			}
+		#center	.Soso .Sousuo .souyisou{
+				width: 740px;
+				height: 50px;
+				border-radius: 40px;
+				border: 1px solid orange;
+				position: relative;
+				top:5px;
+				left:4px;
+				text-align: center;
+				font-size: 25px;
+				
+			}
+		#center .Soso .red{
+				width: 100px;
+				height: 62px;
+				background-color: orange;
+				border-top-right-radius:20px;
+				position: absolute;
+				right: 40px;
+				top: 0px;
+			}
+		#center .Soso .red .incon img{
+				width: 44px;
+				height: 44px;
+				position: absolute;
+				right: 26px;
+				top: 10px;
+			}
+		#center .Soso .red .incon img:hover{
+				width: 56px;
+				height: 56px;
+				right: 20px;
+				top: 4px;
+			}
+		#center .zhongjian{
+				width: 1200px;
+				height: 800px;
+				border: 2px solid blue;
+				float: left;
+				margin-left: 58px;
+				margin-top:100px;
+			}
+		#center .zhongjian .daohang{
+				background: deepskyblue;
+				width: 1200px;
+				height: 40px;
+				margin: auto;
+			}
+		#center .zhongjian .daohang .b{
+				font-size: 25px;
+				text-align: center;
+				text-decoration: none;
+				line-height: 40px;
+				font-weight: 700;
+				font-family: "宋体";
+				display: block;
+				float: left;
+				width: 200px;
+				color: white;
+			}
+		#center .zhongjian .content{
+			border: 1px solid red;
+			width: 1200px;
+			height: 760px;
+		}
+		
+			#center .zhongjian .content{
+				/*border: 2px solid darkred;*/
+				width: 834px;
+				height: 760px;
+				float: left;
+			}
+			#center .zhongjian .content .pic{
+				border: 2px solid darkred;
+				width: 400px;
+				height: 320px;
+				float: left;
+				margin: 10px 6px;
+				background-color: white;
+			}
+			#center .zhongjian .content .fangkuai{
+				width: 380px;
+				height: 250px;
+				/*border: 1px solid purple;*/
+				margin: 10px auto;
+				overflow: hidden;
+			}
+			#center .zhongjian .content .fangkuai .tupian{
+				width: 380px;
+				height: 500px;
+				margin-top: -108px;
+			}
+			#center .zhongjian .content .chahua{
+				font-size: 25px;
+				font-family: "宋体";
+				text-align: center;
+				margin: 14px auto;
+				/*border: 1px solid purple;*/
+			}
+			#center .zhongjian .content .DibuWenzi{
+				font-size: 24px;
+				font-family: "宋体";
+				text-align: center;
+				padding: 4px;
+			}
+			#center .zhongjian .contentRig{
+				width: 340px;
+				height: 737px;
+				border: 1px solid purple;
+				float: right;
+				margin: 10px;
+				background-color:deepskyblue;
+			}
+			#center .zhongjian .contentRig .Rignei{
+				width: 322px;
+				height: 720px;
+				border-top-left-radius: 10px;
+				border-top-right-radius: 10px;
+				margin: 6px auto;
+				background-color: white;
+				border: 1px solid purple;
+				overflow: hidden;
+			}
+			#center .zhongjian .contentRig .Rignei .day{
+				list-style: none;
+				width: 324px;
+				height: 40px;
+				border-top-left-radius: 10px;
+				/*border-bottom: 1px solid aquamarine;*/
+				/*margin: 2px auto;*/
+			}
+			#center .zhongjian .contentRig .Rignei .DayTottom{
+				width: 324px;
+				height: 720px;
+				border: 1px solid red;
+			}
+			.zise{
+				width: 150px;
+				height: 80px;
+				padding: 4px;
+			}
+			.day li{
+				float: left;
+				width: 46px;
+				text-align: center;
+				height: 40px;
+				line-height: 40px;
+				/*margin-left:1px;*/
+				/*border: 1px solid purple;*/
+				/*background-color: cadetblue;*/
+			}
+			.DayTottom .paihang{
+				width: 318px;
+				height: 20px;
+				margin: 2px;
+				/*border: 1px solid red;*/
+			}
+			.paihang .number{
+				color: red;
+				padding: 8px;
+				
+			}
+			.paihang .dianzan{
+				float: right;
+				padding-right:10px ;
+			}
+			.Rignei .zhuanti{
+				width: 318px;
+				height: 184px;
+				border: 1px solid red;
+			}
+			.paihang a:hover{
+				color: red;
+			}
+			.paihang a{
+				text-decoration: none;
+			}
+			.DayTottom .vipleft{
+				width: 116px;
+				height: 72px;
+				margin-left: 4px;
+				margin-top: 7px;
+				text-align: center;
+				padding: 2px;
+				border-right: 1px solid lightblue;
+			}
+			.day li:hover{
+				background-color: #E8EDED;	
+			}
+			/*js,jq需要*/
+			.c{
+				background: #E46703;
+			}
+			/*.daohang .b:hover{
+				background: #E46703;
+			}*/
+			a.blue{
+				background: deepskyblue;
+			}
+			a.organ{
+				background: #E46703;
+			}
+			

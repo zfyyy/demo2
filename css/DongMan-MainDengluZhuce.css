@@ -1,0 +1,232 @@
+			*{
+				padding: 0;margin: 0;
+			}
+			#beijing{
+				width: 100%;
+				height: 100%;
+				background: -webkit-gradient(linear,left top,left bottom,from(cornflowerblue),to(cornflowerblue),
+				color-stop(0.5,wheat));
+				/*background: -webkit-gradient(radial,center center,0,center center,800,from(cornflowerblue),to(black),
+				color-stop(0.5,wheat));*/
+				opacity: 0.9;
+				position: absolute;
+				margin: auto;
+				top: 0px;
+				left: 0;
+				right: 0;
+			    bottom: 0;
+				z-index: 10;
+				position: fixed;
+			}
+			#beijing .dlkuang{
+				width: 574px;
+				height: 380px;
+				background-color: white;
+				position: absolute;
+				margin: auto;
+				top: 0;
+			    left: 0;
+			    right: 0;
+			    bottom: 0;
+				z-index: 20;
+			}
+			#beijing .dlkuang a{
+				text-decoration:none;
+				color: black;
+			}
+			#beijing .dlkuang .rightZC{
+				background-color: #DFE6ED;
+			}
+			#beijing .dlkuang .rightZC:hover{
+				cursor: pointer;
+				text-decoration: underline;
+			}
+			#beijing .dlkuang .leftDL:hover{
+				cursor: pointer;
+				text-decoration: underline;
+			}
+			#beijing .dlkuang .leftDL,.rightZC{
+				width: 287px;
+				height: 52px;
+				/*border: 1px solid red;*/
+				float: left;
+				text-align: center;
+				line-height: 52px;
+				font-size: 22px;
+				font-family: "宋体";
+			}
+			#beijing .dlkuang .bottomCont{
+				width: 574px;
+				height: 312px;
+				/*border: 1px solid red;*/
+				float: left;
+			}
+			#beijing .dlkuang .bottomCont .leftCont{
+				width: 350px;
+				height: 302px;
+				/*border: 1px solid red;*/
+				border-right:1px solid #DFE6ED;
+				float: left;
+				position: relative;
+			}
+			#beijing .bottomCont .inputt{
+				width: 314px;
+				height: 44px;
+				margin: 16px;
+			}
+			#beijing .bottomCont .yanzhengma{
+				width: 90px;
+				height: 40px;
+				border: 1px solid red;
+				position: absolute;
+				top: 179px;
+				left: 200px;
+			}
+			#beijing .bottomCont .yanzhengma img{
+				width: 90px;
+				height: 40px;
+				cursor: pointer;
+			}
+			#beijing .bottomCont .fuxuan{
+				width: 380px;
+				height: 28px;
+				/*border: 1px solid red;*/
+			}
+			#beijing .bottomCont .fuxuan{
+				margin-left: 16px;
+				margin-top: -2px;
+				
+			}
+			#beijing .bottomCont .fuxuan .mima{
+				margin-left: 134px;
+				line-height: 28px;
+			}
+			#beijing .bottomCont .dengluBlue{
+				width: 250px;
+				height: 34px;
+				background-color: #3591D5;
+				text-align: center;
+				margin: 4px 54px;
+			}
+			#beijing .bottomCont .dengluBlue:hover{
+				text-decoration: underline;
+				cursor: pointer;
+				color: white;
+			}
+			#beijing .bottomCont .dengluBlue span{
+				font-size: 15px;
+				font-family: "宋体";
+				color: white;
+				line-height: 34px;
+			}
+			#beijing .bottomCont .rigthCont{
+				width: 200px;
+				height: 300px;
+				/*border: 1px solid red;*/
+				float: right;
+				margin: 10px;
+			}
+			#beijing .bottomCont .rigthCont p{
+				font-size: 12px;
+				font-family: "微软雅黑";
+				text-align: center;
+				margin: 10px;
+			}
+			#beijing .bottomCont .rigthCont .weibo{
+				width: 130px;
+				height: 36px;
+				/*border: 1px solid red;*/
+				margin: auto;
+				background: url(../img/qq-btn.png) no-repeat;
+			}
+			#beijing .bottomCont .rigthCont .qq{
+				width: 130px;
+				height: 36px;
+				/*border: 1px solid red;*/
+				margin: 10px auto;
+				background: url(../img/qq-btn.png) no-repeat 0px -50px;
+			}
+			#beijing .bottomCont .rigthCont .weixi{
+				width: 130px;
+				height: 36px;
+				margin: auto;
+				background: url(../img/login_wx.png) repeat scroll top left;
+			}
+			#beijing .bottomCont .rigthCont .weibo,.qq,.weixi:hover{
+				cursor: pointer;
+			}
+			#beijing .bottomCont2{
+				width: 574px;
+				height: 460px;
+				/*border: 1px solid red;*/
+				float: left;
+				background-color: white;
+			}
+			#beijing .bottomCont2 .inpuTt{
+				width: 314px;
+				height: 44px;
+				margin: 10px;
+			}
+			#beijing .bottomCont2 .leftCont2{
+				width: 350px;
+				height: 422px;
+				/*border: 1px solid red;*/
+				float: left;
+				border-right:1px solid #DFE6ED;
+			}
+			#beijing .bottomCont2 .inpuTtYZ{
+				width: 140px;
+				height: 44px;
+				margin: 10px;
+			}
+			#beijing .bottomCont2 .leftCont2 .zhuceBlue{
+				/*border: 1px solid red;*/
+				width: 300px;
+				height: 40px;
+				margin: auto;
+				text-align: center;
+				line-height: 40px;
+				background-color: #3591D5;
+				color: white;
+				margin-left: 22px;
+			}
+			#beijing .bottomCont2 .leftCont2 .zhuceBlue:hover{
+					cursor: pointer;
+					text-decoration: underline;
+				}
+			#beijing .bottomCont2 .rigthCont2{
+				width: 200px;
+				height: 300px;
+				/*border: 1px solid red;*/
+				margin: 10px 10px;
+				float: right;
+			}
+			#beijing .bottomCont2 .rigthCont2 p{
+				font-size: 12px;
+				font-family: "微软雅黑";
+				text-align: center;
+				margin: 10px;
+			}
+			#beijing .bottomCont2 .rigthCont2 .weibo2{
+				width: 130px;
+				height: 36px;
+				/*border: 1px solid red;*/
+				margin: auto;
+				background: url(../img/qq-btn.png) no-repeat;
+			}
+			#beijing .bottomCont2 .rigthCont2 .qq2{
+				width: 130px;
+				height: 36px;
+				/*border: 1px solid red;*/
+				margin: 10px auto;
+				background: url(../img/qq-btn.png) no-repeat 0px -50px;
+			}
+			#beijing .bottomCont2 .rigthCont2 .weixi2{
+				width: 130px;
+				height: 36px;
+				margin: auto;
+				background: url(../img/login_wx.png) repeat scroll top left;
+			}
+			#beijing .bottomCont2 .rigthCont2 .weibo2,.qq2,.weixi2:hover{
+				cursor: pointer;
+			}

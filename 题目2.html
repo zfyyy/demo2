@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>两个动画弹窗效果</title>
+		<script type="text/javascript">
+			window.onload=function(){
+				var btn= document.getElementById("btn")
+				var btn2= document.getElementById("btn2")
+				var red=document.getElementById("red")
+				var pink=document.getElementById("pink")
+				
+				btn.onclick=function(){
+					var zhuangtai="none";
+					if(zhuangtai=="none"){
+						red.style.display="block";
+						zhuangtai="block";
+					}
+					red.onclick=function(){
+						if(zhuangtai=="block"){
+							red.style.display="none";
+						}
+					}
+				}
+				
+				btn2.onclick=function(){
+					var zhuangtaii="none";
+					if(zhuangtaii=="none"){
+						pink.style.display="block";
+						zhuangtaii="block";
+					}
+//					pink.onclick=function(){
+//						if(zhuangtaii=="block"){
+//							pink.style.display="none";
+//						}
+//					}
+				}
+		}
+				
+		</script>
+		<style type="text/css">
+			.cont{
+				width: 800px;
+				height: 800px;
+				border:1px solid black;
+				margin: auto;
+				position: relative;
+				/*overflow: hidden;*/
+			}
+			#red{
+				width: 200px;
+				height: 200px;
+				background: indianred;
+				margin-top:200px;
+				margin-left:300px;
+				position: absolute;
+				animation:kuoda 1s ease-in-out;
+				display: none;
+			}
+			@keyframes kuoda{
+				0%{/*缩放可以*/
+					transform: scale(0) translate(0px,0px);
+				}
+				100%{
+					transform: scale(1) translate(0px,0px);
+				}
+			}
+			#pink{
+				width: 800px;
+				height: 200px;
+				background: pink;
+				position: absolute;
+				-webkit-animation:tangchu 1s;
+				bottom: 0px;
+				display: none;
+			}
+			#pink:active{
+				
+			}
+			@keyframes tangchu{
+				0%{
+					/*缩放可以*/
+					-webkit-transform: translate(0px,200px);
+				}
+				100%{
+					-webkit-transform:translate(0px,0px);
+				}
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="cont">
+			<input type="button" name="" id="btn" value="点击扩大" />
+			<input type="button" name="" id="btn2" value="底部弹窗" />
+			<div id="red"></div>
+			<div id="pink" style=";"></div>
+		</div>
+	</body>
+</html>

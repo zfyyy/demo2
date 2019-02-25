@@ -1,0 +1,243 @@
+					#bottom{
+				width: 1900px;
+				height: 1250px;
+				/*border: 1px solid red;*/
+				margin: auto;
+				position：relative
+				background-size: cover;
+  				-webkit-background-size: cover;
+			}
+			#bottom .remenhuodong{
+				width: 1900px;
+				height: 730px;
+				/*border: 1px solid black;*/
+				margin: 16px auto;
+				position：relative
+				background-size: cover;
+  				-webkit-background-size: cover;
+			}
+			#bottom .remenhuodong .DiYihang{
+				width: 1890px;
+				height: 360px;
+				/*border: 1px solid purple;*/
+				margin: auto;
+				background-size: cover;
+  				-webkit-background-size: cover;
+			}
+			#bottom .remenhuodong .huodong{
+				width: 440px;
+				height: 301px;
+				border: 6px solid white;
+				float: left;
+				margin: 10px 10px;
+				position: relative;
+			}
+			#bottom .remenhuodong .huodong .f{
+				width: 440px;
+				height: 301px;
+				position: absolute;
+				top: 0px;
+				left: 0px;
+			}
+			#bottom .remenhuodong .huodong .hd{
+				font-size: 20px;
+				font-family: "微软雅黑";
+				margin-left: 100px;
+				margin-top:312px;
+				position: relative;
+			}
+			#bottom .remenhuodong .huodong .o{
+				margin-left: 120px;
+				margin-top: 312px;
+			}
+			#bottom .remenhuodong .huodong .s{
+				margin-left: 70px;
+				margin-top: 312px;
+			}
+			#bottom .remenhuodong .huodong .t{
+				margin-left: 74px;
+				margin-top: 312px;
+			}
+			#bottom .remenhuodong .DiErhang{
+				width: 1890px;
+				height: 360px;
+				/*border: 1px solid purple;*/
+				margin: auto;
+			}
+			#bottom .remenhuodong .huodong .fo{
+				margin-left:66px;
+				margin-top: 312px;
+			}
+			#bottom .remenhuodong .huodong .fi{
+				margin-left: 64px;
+				margin-top: 312px;
+			}
+			#bottom .remenhuodong .huodong .six{
+				margin-left: 118px;
+				margin-top: 312px;
+			}
+			#bottom .remenhuodong .huodong .se{
+				margin-left: 20px;
+				margin-top: 312px;
+			}
+			#bottom .lianxi{
+				width: 1900px;
+				height: 400px;
+				/*border: 1px solid purple;*/
+				margin:100px auto;
+				position：relative
+			}
+			#bottom .lianxi .heise{
+				width: 1900px;
+				height: 100px;
+				/*border: 1px solid purple;*/
+				background-color:black;
+			}
+			#bottom .lianxi .heise .wecl{
+				width: 300px;
+				/*border: 1px solid white;*/
+				margin: auto;
+				padding-top: 28px;
+			}
+			#bottom .lianxi .qianhei{
+				width: 1900px;
+				height: 300px;
+				/*border: 1px solid purple;*/
+				background-color: #181A1A;
+				overflow: hidden;
+				background: url(../img/dh_bg.jpg) no-repeat 
+			}
+			#bottom .lianxi .jieshu{
+				width: 800px;
+				height: 298px;
+				/*border: 2px solid purple;*/
+				margin-left:640px;
+				margin-top: 50px;
+				position: relative;
+			}
+			#bottom .lianxi .jieshu ul{
+				list-style: none;
+				color: black;
+			}
+			#bottom .lianxi .jieshu ul li{
+				float: left;
+				width: 200px;
+				text-align: center;
+				font-size: 18px;
+				font-weight: 700px;
+				font-family: "微软雅黑";
+				/*border: 1px solid white;*/
+			}
+			#bottom .lianxi .jieshu .we{
+				/*border: 1px solid white;*/
+				width: 100px;
+				height: 100px;
+				margin-top:20px;
+				margin-left:68px;
+				float: left;
+			}
+			
+			#bottom .lianxi .jieshu .we a{
+				width: 80px;
+				display: block;
+				color: black;
+				text-decoration: none;
+				margin-top:10px;
+				margin-left:48px
+				border: 1px solid white;
+			}
+			#bottom .lianxi .jieshu .weo{
+				/*border: 1px solid white;*/
+				width: 100px;
+				height: 100px;
+				margin-top:20px;
+				margin-left:96px;
+				float: left;
+			}
+				#bottom .lianxi .jieshu .weo a{
+				width: 80px;
+				display: block;
+				color: black;
+				text-decoration: none;
+				margin-top:10px;
+				margin-left:48px
+				border: 1px solid white;
+			}
+			#bottom .lianxi .jieshu .wet{
+				/*border: 1px solid white;*/
+				width: 100px;
+				height: 100px;
+				margin-top:20px;
+				margin-left:102px;
+				float: left;
+			}
+				#bottom .lianxi .jieshu .wet a{
+				width: 80px;
+				display: block;
+				color: black;
+				text-decoration: none;
+				margin-top:10px;
+				margin-left:48px
+				border: 1px solid white;
+			}
+			#bottom .lianxi .jieshu .wefo{
+				/*border: 1px solid white;*/
+				width: 140px;
+				height: 100px;
+				margin-top:20px;
+				margin-left:80px;
+				float: left;
+				color: black;
+			}
+			#bottom .lianxi .jieshu input{
+				background-color: deepskyblue;
+				color: white;
+				width: 100px;
+				height: 40px;
+				font-size: 18px;
+				margin-top: 20px;
+				margin-left: 20px;
+				position: relative;
+			}
+			#bottom .lianxi .qianhei .db{
+					/*position: absolute;
+					bottom: -1580px;
+					right: 50px;*/
+					opacity: 0.4;
+			}
+			#bottom .lianxi .qianhei a:hover{
+				color:deepskyblue ;
+			}	
+			.fix{
+				width: 40px;
+				height: 40px;
+				background-color: deepskyblue;
+				position: absolute;
+				right: 0px;
+				bottom: 400px;
+				position: fixed;
+			}			
+			.fix a{
+				text-decoration: none;
+				font-size: 15px;
+				margin: 10px 4px;
+				position: absolute; 
+				color: white;
+			}
+			.fixcss{
+				margin-top:4px;
+				margin-left: 2px;
+			}
+			.erweima{
+				padding-left: 660px;
+			}
+			.erweima img{
+					margin-left: 10px;
+
+			}
+			.weixin{
+				position: absolute ;
+				bottom: 160px;
+				right: 62px;
+				display: none;
+			}
