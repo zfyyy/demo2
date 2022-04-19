@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js" type="text/javascript"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../static/rmgsystem/css/addNewInterview.css" />
+		<script>
+			// 文字转换
+			function ConvertName() {
+				var chinaName = $('#chinaName').val();
+				// 空格
+				// chinaName = chinaName.substr(0,1)+" "+chinaName.substr(1)
+				chinaName = chinaName.charAt(0).concat(" ")+""+chinaName.charAt(1)+""+chinaName.charAt(2)
+
+				//获取全写拼音（调用js中方法）        
+				var chagneEnglish = pinyin.getFullChars(chinaName);
+				//给两个文本框赋值    
+				$('#englishName').val(chagneEnglish);
+			}
+				// file改变,后面显示内容
+// 				function change(){
+// 					$("#updataed").html($("#inputfile").val())
+// 				}
+// 				
+// 				function resets(){
+// 					$("#updataed").html("")
+// 				}
+		</script>
+	</head>
+	<body>
+		<!-- style="border: 1px solid red;" -->
+		<div id="box">
+			<div class="container" >
+				<form class="form-horizontal" action="/admin/saveInterviewRes" method="post" enctype="multipart/form-data">
+                         <!-- {% csrf_token %} -->
+					<h3 class="mb">Interview Person Info</h3>
+					<div class="form-group mb">
+						<label for="chinaName" class="col-sm-2 control-label">Chinese Name:</label>
+						<div class="col-sm-4 ">
+							<input type="text" class="form-control" id="chinaName" name="chinaName" placeholder="Name" oninput="ConvertName()">
+						</div>
+					</div>
+					<div class="form-group mb">
+						<label for="englishName" class="col-sm-2 control-label">English Name:</label>
+						<div class="col-sm-4">
+							<input type="text" class="form-control" id="englishName" name="englishName2"  placeholder="English Name">
+						</div>
+					</div>
+					<div class="form-group mb">
+						<label for="inputPhone" class="col-sm-2 control-label">Mobile:</label>
+						<div class="col-sm-4">
+							<input type="tel" class="form-control" id="inputPhone" name="inputPhone" placeholder="Phone(only number)" oninput="value=value.replace(/[^\d]/g,'')">
+						</div>
+						
+					</div>
+					<div class="form-group mb">
+						<label for="inputYears" class="col-sm-2 control-label" >Working life :</label>
+						<div class="col-sm-4">
+							<input type="number" class="form-control" id="inputYears" name="inputYears" placeholder="Years(only number)">
+						</div>
+					</div>
+					<div class="form-group mb">
+						<label for="inputXu" class="col-sm-2 control-label">RMG Requirments:</label>
+						<div class="col-sm-4">
+							<select id="techcode" name="techcode" class="form-control">
+								<option value="JAVAFRDV">Front-end development</option>
+								<option value="JAVAFRSE">Front end SE</option>
+								<option value="JAVA00DV">Java Universal Backend Development</option>
+								<option value="JAVA00SE">Java Universal Backend SE</option>
+								<option value="JAVAMSDV">JAVA Microservice Development</option>
+								<option value="JAVAMSSE">JAVA Microservice SE</option>
+                                <option value="000000PM">PM</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group mb">
+						<label for="inputEdu" class="col-sm-2 control-label">Education:</label>
+						<div class="col-sm-4">
+							<select id="inputEdu" name="inputEdu" class="form-control">
+								<option value="0">Junior College</option>
+								<option value="1">high school</option>
+								<option value="2">Undergraduate</option>
+								<option value="3">doctor</option>
+								<option value="4">master</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group mb">
+						<label for="inputJob" class="col-sm-2 control-label">Interview post:</label>
+						<div class="col-sm-4">
+							<select id="position" name="position" class="form-control">
+								<option value="0">UI design</option>
+								<option value="1">Teacher</option>
+								<option value="2">Front end</option>
+								<option value="3">back-end</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group mb">
+						<label for="inputBirth" class="col-sm-2 control-label">Date of birth:</label>
+						<div class="col-sm-4">
+							<input type="text" class="form-control" id="inputBirth" name="inputBirth" placeholder="Fill in Birthday ">
+						</div>
+					</div>
+					<div class="form-group mb">
+						<label for="inputInterview " class="col-sm-2 control-label">Date of interview:</label>
+						<div class="col-sm-4">
+							<input type="date" class="form-control" id="inputInterview" name="inputInterview">
+						</div>
+						<script src="../static/rmgsystem/js/timeDate.js" type="text/javascript"></script>
+					</div>
+					<div class="form-group mb">
+						<label for="inputSex" class="col-sm-2 control-label">Gender:</label>
+						<div class="col-sm-4">
+							<input type="radio"  name="optionsRadios" checked style="margin-top:10px;" value="1">&nbsp;<label>boy</label>
+							<input type="radio"  name="optionsRadios" checked value="2">&nbsp;<label>girl</label>
+						</div>
+					</div>
+					<div class="form-group mb">
+						<label for="inputfile" class="col-sm-2 control-label">Upload resume:</label>
+						<div class="col-sm-4" id="file">
+							<button class="btn">CV Upload</button>
+							<!-- <span id="updataed"></span> -->
+							<input type="file" id="inputfile" name="inputfile" onchange="change()">
+						</div>
+					</div>
+					<div class="form-group mb">
+						<label for="textarea" class="col-sm-2 control-label">Description:</label>
+						<textarea id="textarea" name="textarea" rows="5" cols="80" ></textarea>
+					</div>
+					<div id="sub">
+						<input type="submit" value="submit" class="btn btn-default"/>
+						<input type="reset" id="reset"  value="cancel" class="btn btn-default" onclick="resets()"/>
+					</div>
+
+				</form>
+				<script src="../static/rmgsystem/js/Convert_Pinyin.js" type="text/javascript"></script>
+			</div>
+		</div>
+    </body>
+</html>
